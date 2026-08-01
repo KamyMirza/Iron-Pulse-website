@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Pulse | Cart</title>
+    <meta name="description" content="Shop premium gym and strength equipment at Iron Pulse. Discover dumbbells, barbells, benches, power racks, kettlebells and more.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Iron Pulse | Cart">
+    <meta property="og:description" content="Shop premium gym and strength equipment at Iron Pulse. Discover dumbbells, barbells, benches, power racks, kettlebells and more.">
+    <meta property="og:image" content="media/images/Hero_Banner.png">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/analytics.js" defer></script>
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">
+            <img src="media/icons/IP_logo.png" alt="IRON PULSE logo">
+            <span class="logo-text">IRON<span class="accent">PULSE</span></span>
+        </div>
+        <div class="burger" id="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">🛒Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Cart -->
+        <section class="cart-page">
+            <h1>Your Cart</h1>
+
+            <!-- Filled dynamically by cart.js -->
+            <div id="cart-items"></div>
+
+            <div class="cart-summary">
+                <p>Total: <span id="cart-total">£0.00</span></p>
+                <a href="products.html" class="btn">Continue Shopping</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Iron Pulse. All rights reserved.</p>
+        <p id="visit-counter" class="visit-counter"></p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

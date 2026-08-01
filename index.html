@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Pulse | Home</title>
+    <meta name="description" content="Shop premium gym and strength equipment at Iron Pulse. Discover dumbbells, barbells, benches, power racks, kettlebells and more.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Iron Pulse | Home">
+    <meta property="og:description" content="Shop premium gym and strength equipment at Iron Pulse. Discover dumbbells, barbells, benches, power racks, kettlebells and more.">
+    <meta property="og:image" content="media/images/Hero_Banner.png">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js" defer></script>
+    <script src="js/analytics.js" defer></script>
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">
+            <img src="media/icons/IP_logo.png" alt="IRON PULSE logo">
+            <span class="logo-text">IRON<span class="accent">PULSE</span></span>
+        </div>
+
+        <div class="burger" id="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">🛒Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <h1>
+                <span class="white-text">EVERY REP.</span>
+                <span class="accent-text">EVERY BEAT.</span>
+            </h1>
+            <p>Premium strength equipment engineered to perform.</p>
+            <a href="products.html" class="btn">SHOP NOW</a>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured">
+            <h2>Featured Products</h2>
+            <div class="featured-grid">
+                <div class="product-card">
+                    <img src="media/images/Power_Rack.png" alt="Power Rack">
+                    <h3>ELITE POWER RACK</h3>
+                    <p class="price">£699.99</p>
+                    <p class="category">STRENGTH EQUIPMENT</p>
+                    <button class="btn add-to-cart" data-name="Power Rack" data-price="699.99" data-image="media/images/Power_Rack.png">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="media/images/EZ_Curl_Bar.png" alt="EZ Curl Bar">
+                    <h3>EZ CURL BAR</h3>
+                    <p class="price">£99.99</p>
+                    <p class="category">BARBELLS & PLATES</p>
+                    <button class="btn add-to-cart" data-name="EZ Curl Bar" data-price="99.99" data-image="media/images/EZ_Curl_Bar.png">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="media/images/Kettlebells.png" alt="Kettlebells">
+                    <h3>3-PIECE KETTLEBELL SET</h3>
+                    <p class="price">£99.99</p>
+                    <p class="category">FREE WEIGHTS</p>
+                    <button class="btn add-to-cart" data-name="Kettlebells" data-price="99.99" data-image="media/images/Kettlebells.png">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="media/images/Pull-Up_Bar.png" alt="Pull-Up Bar">
+                    <h3>MULTI-GRIP PULL-UP BAR</h3>
+                    <p class="price">£69.99</p>
+                    <p class="category">TRAINING STATIONS</p>
+                    <button class="btn add-to-cart" data-name="Pull-Up Bar" data-price="69.99" data-image="media/images/Pull-Up_Bar.png">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Iron Pulse. All rights reserved.</p>
+        <p id="visit-counter" class="visit-counter"></p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

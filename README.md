@@ -89,5 +89,4 @@ Screenshots of the SEO checks can be found in:
 
 ## Author
 
-Kamran Ahmed Mirza 
-CPU4104 Web Development – Level 4
+Kamran Ahmed Mirza
